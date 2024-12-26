@@ -1,7 +1,7 @@
 # TradingView Remove ads
 TradingView - Remove ads
 
-#1 - Download Tampermonkey extension for your favorite browser.
+#1 - Download Tampermonkey or Greasemonkey extension for your favorite browser.
 
 #2 - Create a new script in Tampermonkey extension copy pasting the source code of TradingViewNoAds_clearInterval_version.js
 
