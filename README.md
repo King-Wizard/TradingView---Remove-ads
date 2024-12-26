@@ -7,4 +7,4 @@ TradingView - Remove ads
 
 #3 - Enable the script in the Tampermonkey or Greasemonkey extension while being on the Tradingview website (if it has not been done yet by default).
 
-Those source codes work and have only been tested with Google Chrome browser on Windows 11, consequently I did not test it yet on any smartphone's browser.
+Those source codes work and have only been tested with Google Chrome browser and Tampermonkey on Windows 11, consequently I did not test it yet on any smartphone's browser.
