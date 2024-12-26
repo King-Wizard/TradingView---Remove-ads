@@ -9,4 +9,4 @@ TradingView - Remove ads
 
 Note: for the moment prefer TradingViewNoAds_clearInterval_version.js over TradingViewNoAds_infiniteLoop_version.js
 
-This source code works and has only been tested in Google Chrome browser on Windows 11.
+This source code works and has only been tested in Google Chrome browser on Windows 11, consequently I did not test it yet on any smartphone's browser.
