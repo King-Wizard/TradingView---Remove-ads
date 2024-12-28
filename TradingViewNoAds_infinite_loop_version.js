@@ -14,20 +14,33 @@
 window.addEventListener('load', function infiniteLoopVersion() {
     'use strict'
 
-    //console.log('%cPage fully loaded', 'background: purple; color: black; font-weight: bold')
+    /**
+     *
+     * @param {string} message - The message printed in the console.
+     * @param {string} fontColor - The font color of the message printed in the console.
+     * @param {string} backgroundColor - The background color of the message printed in the console.
+     */
+    /*function consolePrintLine(message, fontColor, backgroundColor) {
+       console.log(`%c${message}`, `background: ${backgroundColor}; ` +
+                                   `color: ${fontColor}; ` +
+                                   `font-weight: bold`)
+    }
 
-    //let logCounter = 0
+    consolePrintLine('Web page fully loaded', 'black', 'purple')
+
+    let logCounter = 0
+    */
 
     setInterval(function() {
-        //console.log('%clogCounter = ' + ++logCounter, 'background: white; color: black; font-weight: bold');
+        //consolePrintLine(`logCounter = ${++logCounter}`, 'black', 'white')
 
         const adBox = document.querySelector('iframe[title="3rd party ad content"]')
         if(adBox){
             adBox.remove()
-            //console.log('%cadBox removed', 'background: blue; color: black; font-weight: bold')
+            //consolePrintLine('adBox removed', 'black', 'blue')
             //logCounter = 0
         }/*else{
-            console.log('%cNo adBox for the moment', 'background: yellow; color: black; font-weight: bold')
+            consolePrintLine('No adBox for the moment', 'black', 'yellow')
         }*/
     }, 1000)
 
