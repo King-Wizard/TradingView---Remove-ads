@@ -26,21 +26,21 @@ window.addEventListener('load', function clearIntervalVersion() {
                                    `font-weight: bold`)
     }
 
-    consolePrintLine('Web page fully loaded', 'black', 'purple')
+    consolePrintLine(`Web page fully loaded`, `black`, `purple`)
 
     let logCounter = 0
     */
 
     let intervalID = setInterval(function() {
-        //consolePrintLine(`logCounter = ${++logCounter}`, 'black', 'white')
+        //consolePrintLine(`logCounter = ${++logCounter}`, `black`, `white`)
 
         const adBox = document.querySelector('iframe[title="3rd party ad content"]')
         if(adBox){
             adBox.remove()
-            //consolePrintLine('adBox removed', 'black', 'blue')
+            //consolePrintLine(`adBox removed`, `black`, `blue`)
             clearInterval(intervalID)
         }/*else{
-            consolePrintLine('No adBox for the moment', 'black', 'yellow')
+            consolePrintLine(`No adBox for the moment`, `black`, `yellow`)
         }*/
     }, 1000)
 
